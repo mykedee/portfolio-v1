@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Kumbh Sans", sans-serif;
+}
+.dark {
+	@apply text-wheat bg-black;
+}
+
+.open {
+	height: 100vh;
+	width: 100vw;
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 81px;
+	/* top: 64px; */
+	transition: 0.5s ease-out;
+	border-top: 0.1px solid #f5deb321;
+	z-index: 1000;
+}
+
+.hamburger {
+	transform: rotate(45deg);
+	transition: 0.5s ease-out;
+}
+
+.hamburger span:last-child {
+	transform: rotate(-90deg);
+	bottom: -4px;
+	position: absolute;
+	transition: 0.5s ease-out;
+}
+
+header span {
+	display: block;
+}
+
+.hamburger span:nth-child(2) {
+	display: none;
+}
+.hamburger span:first-child {
+	width: 1.3rem;
+}
+
+nav.open ul {
+	display: block;
+	right: 9%;
+	position: absolute;
+}
+
+nav.open li:last-child {
+	display: block;
+	text-align: center;
+	right: 0;
+	left: 0;
+	position: fixed;
+	bottom: 13px;
+}
+
+.linx {
+	z-index: 1;
+}
+
+.linka a {
+	position: relative;
+	top: -14px;
+	right: -47px;
+	z-index: 2;
+}
+
+/* .linka a {
+	display: inline;
+	position: relative;
+	right: -50px;
+	top: -11px;
+	z-index: -1;
+} */
+
+nav.open ul a {
+	padding: 20px 9.75%;
+	/* padding: 20px 8.75%; */
+	display: block;
+	margin-top: 30px;
+	text-align: right;
+}
+
+nav.open ul a:last-child {
+	bottom: 137px;
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+
+.close {
+	transition: 5.5s ease-out;
+}
+
+@media (min-width: 768px) {
+	.open {
+		/* display: hidden; */
+	}
+
+	nav.open ul {
+		/* display: hidden; */
+	}
+
+	.close {
+		/* display: hidden; */
+		transition: 0.5s ease-out;
+	}
+}
+
+/* span {
+	height: 7px;
+	width: 61px;
+	background-color: aquamarine;
+	display: block;
+	margin-top: 3px;
+} */
+
+/* 
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav {
+	width: 70%;
+	height: 100%;
+	z-index: 1;
+	top: 0;
+	left: -100vw;
+	position: fixed;
+	transition: all 0.3s ease-in-out;
+}
+
+nav.open {
+	@apply shadow-2xl p-8 lg:shadow-none lg:p-0;
+	background-color: white;
+	top: 0;
+	left: 0;
+}
+
+nav ul {
+	@apply flex items-start flex-col gap-4 lg:flex-row;
+}
+
+nav ul li {
+	@apply font-bold text-lg cursor-pointer lg:text-base lg:font-normal;
+}
+
+@media (min-width: 1024px) {
+	.big-image {
+		height: 500px;
+	}
+	nav {
+		position: relative;
+		left: 0;
+		height: auto;
+		width: auto;
+		z-index: auto;
+	}
+	nav.open {
+		background-color: transparent;
+	}
+
+	nav ul {
+		padding-top: 0;
+	}
+} */
