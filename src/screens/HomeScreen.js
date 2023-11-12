@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import Projects from "../components/Projects";
-import Footer from "../components/Footer";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
 const HomeScreen = (props) => {

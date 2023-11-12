@@ -3,7 +3,6 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
 const Contact = ({ showContact, setShowContact }) => {
 	return (
