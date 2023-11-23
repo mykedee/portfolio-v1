@@ -76,10 +76,10 @@ const HomeScreen = (props) => {
 
 					<div className="flex md:flex-row justify-center items-center flex-col">
 						<div className="w-5/6 md:w-4/6 mx-auto my-1 ">
-							<h1 className="font-bold text-3xl md:text-6xl text-center lg:text-8xl my-4 lg:w-full">
+							<h1 className="font-bold text-4xl md:text-6xl text-center lg:text-8xl my-4 lg:w-full">
 								Olalekan Adedeji
 							</h1>
-							<p className="text-left w-full lg:w-3/5 mx-auto md:text-center md:text-base text-sm font-light my-2">
+							<p className="text-left w-full lg:w-3/5 mx-auto md:text-center text-base font-light my-2">
 								Hi there, I am a Web Developer skilled in creating visual
 								pleasing, high-performance and scalable web applications using
 								mordern web technologies.
@@ -87,7 +87,7 @@ const HomeScreen = (props) => {
 								high-performance and scalable web applications using mordern web
 								technologies. */}
 							</p>
-							<p className="block text-left md:text-base text-sm w-full lg:w-3/5 mx-auto md:text-center font-light my-2">
+							<p className="block text-left text-base w-full lg:w-3/5 mx-auto md:text-center font-light my-2">
 								Tools and technologies I work with includes
 								<span className="font-bold"> Javascript</span> |
 								<span className="font-bold"> React</span> |
@@ -100,7 +100,7 @@ const HomeScreen = (props) => {
 								<span className="font-bold"> Figma</span>
 							</p>
 
-							<div className="w-[35%] md:w-[9%] mx-auto mt-14 md:mt-16 text-sm">
+							<div className="w-[35%] md:w-[9%] mx-auto mt-14 md:mt-16 text-base">
 								<div
 									className="grid gap-2 md:gap-6 grid-cols-2 my-3 cursor-pointer"
 									onClick={handleProfile}
