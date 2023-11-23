@@ -6,6 +6,10 @@ module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		extend: {
+			fontFamily: {
+				body: ["Josefin Slab", "serif"],
+				heading: ["Rubik Mono One", "monospace"],
+			},
 			colors: {
 				wheat: "#f5deb3",
 				"primary-orange": "#fbc50b",
