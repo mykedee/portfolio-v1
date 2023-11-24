@@ -7,11 +7,9 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Contact = ({ showContact, setShowContact }) => {
 	return (
 		<div className="my-16 py-12 relative ">
-			<div className=" dark:bg-[#111] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
-				{/* <div className="bg-dash-bg dark:bg-black h-full absolute w-full z-10 top-0 left-0 right-0"> */}
-				{/* <div className="bg-red-600 h-[100vh] absolute w-full z-10 top-0 left-0 right-0"> */}
-				<div className="w-11/12 py-8 mx-auto">
-					<div className="flex items-center mb-10 ">
+			<div className=" dark:bg-[#3d3d3d] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
+				<div className="w-5/6 py-8 mx-auto">
+					<div className="flex items-center mb-10 p-2">
 						<button
 							className="cursor-pointer"
 							onClick={() => setShowContact(false)}

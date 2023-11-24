@@ -42,7 +42,6 @@ const HomeScreen = (props) => {
 			} `}
 		>
 			<div className="flex">
-				{/* <div className="flex lg:overflow-x-hidden overflow-x-auto min-h-[100vh] relative"> */}
 				<div className="absolute p-1 border rounded-full border-slate-800 dark:border-wheat  right-0 top-0 mx-5 md:mx-10 my-5">
 					<span
 						className="flex justify-center items-center  cursor-pointer"
@@ -83,9 +82,6 @@ const HomeScreen = (props) => {
 								Hi there, I am a Web Developer skilled in creating visual
 								pleasing, high-performance and scalable web applications using
 								mordern web technologies.
-								{/* Full Stack developer skilled in creating visual pleasing,
-								high-performance and scalable web applications using mordern web
-								technologies. */}
 							</p>
 							<p className="font-body block text-left text-base w-full lg:w-3/5 mx-auto md:text-center font-light my-2">
 								Tools and technologies I work with includes
@@ -145,7 +141,6 @@ const HomeScreen = (props) => {
 										<FaInstagram size={20} />
 									</Link>
 								</p>
-								{/* <i className="fa-solid fa-chevron-down"></i> */}
 							</p>
 						</div>
 					</div>

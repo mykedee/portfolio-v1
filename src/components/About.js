@@ -1,17 +1,15 @@
 import React from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import { FaXTwitter } from "react-icons/fa6";
-import { Link } from "react-router-dom";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { Link } from "react-router-dom";
+// import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const About = ({ showAbout, setShowAbout }) => {
 	return (
-		<div className="my-16 py-12 relative ">
-			<div className=" dark:bg-[#111] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
-				{/* <div className="bg-dash-bg dark:bg-black h-full absolute w-full z-10 top-0 left-0 right-0"> */}
-				{/* <div className="bg-red-600 h-[100vh] absolute w-full z-10 top-0 left-0 right-0"> */}
-				<div className="w-11/12 py-8 mx-auto">
-					<div className="flex items-center mb-10 ">
+		<div className="my-16 py-24 relative ">
+			<div className=" dark:bg-[#7a7a7a] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
+				<div className="w-5/6 py-8 mx-auto">
+					<div className="flex items-center mb-10 p-2 ">
 						<button
 							className="cursor-pointer"
 							onClick={() => setShowAbout(false)}
@@ -25,7 +23,10 @@ const About = ({ showAbout, setShowAbout }) => {
 							Back
 						</span>
 					</div>
-					<div className="text-center test-sm md:text-base">
+					<div className="p-2 font-heading text-center font-bold text-4xl">
+						<h1>About Me</h1>
+					</div>
+					{/* <div className="text-center test-sm md:text-base">
 						<h1 className="mb-5">Have a project to discuss? </h1>
 
 						<p>Shooooot me a DM on socials</p>
@@ -41,7 +42,7 @@ const About = ({ showAbout, setShowAbout }) => {
 							</Link>
 						</p>
 						<p>or</p>
-					</div>
+					</div> */}
 
 					<form>
 						<div className="mb-10">
