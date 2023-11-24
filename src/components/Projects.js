@@ -20,7 +20,7 @@ const Projects = ({ showProfile, setShowProfile }) => {
 							Back
 						</span>
 					</div>
-					<div className="p-2 font-heading text-center font-bold text-3xl">
+					<div className="p-2 font-heading text-center font-bold text-3xl md:text-4xl">
 						<h1>Selected Projects</h1>
 					</div>
 
