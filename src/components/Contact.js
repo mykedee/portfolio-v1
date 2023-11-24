@@ -26,7 +26,7 @@ const Contact = ({ showContact, setShowContact }) => {
 					<div className="text-center test-sm md:text-base">
 						<h1 className="mb-5">Have a project to discuss? </h1>
 
-						<p>Shooooot me a DM on socials</p>
+						<p>Shoot me a DM on socials</p>
 						<p className="flex justify-center gap-2 my-6">
 							<Link to="/">
 								<FaXTwitter size={20} />
