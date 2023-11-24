@@ -23,7 +23,7 @@ const About = ({ showAbout, setShowAbout }) => {
 							Back
 						</span>
 					</div>
-					<div className="p-2 font-heading text-center font-bold text-3xl md:text-4xl">
+					<div className="p-2 font-heading text-center font-bold text-2xl md:text-4xl">
 						<h1>About Me</h1>
 					</div>
 					{/* <div className="text-center test-sm md:text-base">
