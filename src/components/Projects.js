@@ -25,7 +25,7 @@ const Projects = ({ showProfile, setShowProfile }) => {
 					</div>
 
 					<div className="flex justify-between items-center p-3 ">
-						<p className="mx-3 p-3 bg-[#999] rounded">
+						<p className="mx-3 p-3 bg-[#3d3d3d] rounded">
 							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
 							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
 							minim sit sunt pariatur Lorem. Duis laborum esse incididunt

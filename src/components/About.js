@@ -7,7 +7,7 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 const About = ({ showAbout, setShowAbout }) => {
 	return (
 		<div className="my-16 py-24 relative ">
-			<div className=" dark:bg-[#7a7a7a] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
+			<div className=" dark:bg-[#3d3d3d] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
 				<div className="w-5/6 py-8 mx-auto">
 					<div className="flex items-center mb-10 p-2 ">
 						<button
