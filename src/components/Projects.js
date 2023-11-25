@@ -24,56 +24,64 @@ const Projects = ({ showProfile, setShowProfile }) => {
 						<h1>Selected Projects</h1>
 					</div>
 
-					<div className="flex justify-between items-center p-2 ">
-						<p className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
-							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
-							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
-							minim sit sunt pariatur Lorem. Duis laborum esse incididunt
-							eiusmod nulla duis reprehenderit anim. Do nulla ipsum ut id elit
-							commodo ullamco sint commodo qui exercitation amet nostrud.
-							Reprehenderit pariatur ipsum commodo elit sunt aliquip nulla.
-							Reprehenderit fugiat veniam eu Lorem ad et excepteur tempor ut
-							commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
-							cillum tempor proident commodo sunt exercitation exercitation.
-						</p>
+					<div className="flex md:flex-row flex-col justify-between items-center p-2 ">
+						<div className="mx-3 my-5 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
+							<p>
+								Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
+								tempor sint laborum aute. Esse mollit elit nulla dolor consequat
+								minim sit sunt pariatur Lorem. Duis laborum esse incididunt
+								eiusmod nulla duis reprehenderit anim. Do nulla ipsum ut id elit
+								commodo ullamco sint commodo qui exercitation amet nostrud.
+								Reprehenderit pariatur ipsum commodo elit sunt aliquip nulla.
+								Reprehenderit fugiat veniam eu Lorem ad et excepteur tempor ut
+								commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
+								cillum tempor proident commodo sunt exercitation exercitation.
+							</p>
+						</div>
 
-						<p className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
-							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
-							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
-							minim sit sunt pariatur Lorem. Duis laborum esse incididunt
-							eiusmod nulla duis reprehenderit anim. Do nulla ipsum ut id elit
-							commodo ullamco sint commodo qui exercitation amet nostrud.
-							Reprehenderit pariatur ipsum commodo elit sunt aliquip nulla.
-							Reprehenderit fugiat veniam eu Lorem ad et excepteur tempor ut
-							commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
-							cillum tempor proident commodo sunt exercitation exercitation.
-						</p>
+						<div className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
+							<p>
+								Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
+								tempor sint laborum aute. Esse mollit elit nulla dolor consequat
+								minim sit sunt pariatur Lorem. Duis laborum esse incididunt
+								eiusmod nulla duis reprehenderit anim. Do nulla ipsum ut id elit
+								commodo ullamco sint commodo qui exercitation amet nostrud.
+								Reprehenderit pariatur ipsum commodo elit sunt aliquip nulla.
+								Reprehenderit fugiat veniam eu Lorem ad et excepteur tempor ut
+								commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
+								cillum tempor proident commodo sunt exercitation exercitation.
+							</p>
+						</div>
 					</div>
 
-					<div className="flex justify-between items-center p-3 ">
-						<p className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
-							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
-							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
-							minim sit sunt pariatur Lorem. Duis laborum esse incididunt
-							eiusmod nulla duis reprehenderit anim. Do nulla ipsum ut id elit
-							commodo ullamco sint commodo qui exercitation amet nostrud.
-							Reprehenderit pariatur ipsum commodo elit sunt aliquip nulla.
-							Reprehenderit fugiat veniam eu Lorem ad et excepteur tempor ut
-							commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
-							cillum tempor proident commodo sunt exercitation exercitation.
-						</p>
+					<div className="flex md:flex-row flex-col justify-between items-center p-3  ">
+						<div className="mx-3 my-5 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
+							<p>
+								Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
+								tempor sint laborum aute. Esse mollit elit nulla dolor consequat
+								minim sit sunt pariatur Lorem. Duis laborum esse incididunt
+								eiusmod nulla duis reprehenderit anim. Do nulla ipsum ut id elit
+								commodo ullamco sint commodo qui exercitation amet nostrud.
+								Reprehenderit pariatur ipsum commodo elit sunt aliquip nulla.
+								Reprehenderit fugiat veniam eu Lorem ad et excepteur tempor ut
+								commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
+								cillum tempor proident commodo sunt exercitation exercitation.
+							</p>
+						</div>
 
-						<p className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
-							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
-							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
-							minim sit sunt pariatur Lorem. Duis laborum esse incididunt
-							eiusmod nulla duis reprehenderit anim. Do nulla ipsum ut id elit
-							commodo ullamco sint commodo qui exercitation amet nostrud.
-							Reprehenderit pariatur ipsum commodo elit sunt aliquip nulla.
-							Reprehenderit fugiat veniam eu Lorem ad et excepteur tempor ut
-							commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
-							cillum tempor proident commodo sunt exercitation exercitation.
-						</p>
+						<div className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
+							<p>
+								Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
+								tempor sint laborum aute. Esse mollit elit nulla dolor consequat
+								minim sit sunt pariatur Lorem. Duis laborum esse incididunt
+								eiusmod nulla duis reprehenderit anim. Do nulla ipsum ut id elit
+								commodo ullamco sint commodo qui exercitation amet nostrud.
+								Reprehenderit pariatur ipsum commodo elit sunt aliquip nulla.
+								Reprehenderit fugiat veniam eu Lorem ad et excepteur tempor ut
+								commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
+								cillum tempor proident commodo sunt exercitation exercitation.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
