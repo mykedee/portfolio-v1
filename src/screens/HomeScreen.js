@@ -37,7 +37,7 @@ const HomeScreen = (props) => {
 
 	return (
 		<div
-			className={`sticky lg:overflow-x-hidden overflow-x-auto py-[5%] min-h-[100vh] ${
+			className={`sticky lg:overflow-x-hidden overflow-x-auto pt-[5%] pb-[1%] min-h-[100vh] ${
 				props.showDarkMode ? "dark" : "bg-dash-bg"
 			} `}
 		>

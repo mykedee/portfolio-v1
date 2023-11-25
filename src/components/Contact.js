@@ -8,7 +8,7 @@ const Contact = ({ showContact, setShowContact }) => {
 	return (
 		<div className="my-16 py-12 relative ">
 			<div className=" dark:bg-[#3d3d3d] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
-				<div className="w-5/6 py-8 mx-auto">
+				<div className="w-11/12 py-8 mx-auto">
 					<div className="flex items-center mb-10 p-2">
 						<button
 							className="cursor-pointer"

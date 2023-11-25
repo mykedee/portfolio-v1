@@ -5,7 +5,7 @@ const Projects = ({ showProfile, setShowProfile }) => {
 	return (
 		<div className="my-16 py-24 relative">
 			<div className="dark:bg-[#3d3d3d] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0  z-10 left-0 right-0 rounded-lg">
-				<div className="w-5/6 py-8 mx-auto">
+				<div className="w-11/12 py-8 mx-auto">
 					<div className="flex items-center p-2">
 						<button
 							className="cursor-pointer"
@@ -24,8 +24,8 @@ const Projects = ({ showProfile, setShowProfile }) => {
 						<h1>Selected Projects</h1>
 					</div>
 
-					<div className="flex justify-between items-center p-3 ">
-						<p className="mx-3 p-3 bg-[#999] rounded">
+					<div className="flex justify-between items-center p-2 ">
+						<p className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
 							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
 							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
 							minim sit sunt pariatur Lorem. Duis laborum esse incididunt
@@ -37,7 +37,7 @@ const Projects = ({ showProfile, setShowProfile }) => {
 							cillum tempor proident commodo sunt exercitation exercitation.
 						</p>
 
-						<p className="mx-3 p-3 bg-[#999] rounded">
+						<p className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
 							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
 							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
 							minim sit sunt pariatur Lorem. Duis laborum esse incididunt
@@ -51,7 +51,7 @@ const Projects = ({ showProfile, setShowProfile }) => {
 					</div>
 
 					<div className="flex justify-between items-center p-3 ">
-						<p className="mx-3 p-3 bg-[#999] rounded">
+						<p className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
 							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
 							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
 							minim sit sunt pariatur Lorem. Duis laborum esse incididunt
@@ -63,7 +63,7 @@ const Projects = ({ showProfile, setShowProfile }) => {
 							cillum tempor proident commodo sunt exercitation exercitation.
 						</p>
 
-						<p className="mx-3 p-3 bg-[#999] rounded">
+						<p className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">
 							Velit laborum aute ad ex qui reprehenderit laboris Lorem mollit
 							tempor sint laborum aute. Esse mollit elit nulla dolor consequat
 							minim sit sunt pariatur Lorem. Duis laborum esse incididunt
