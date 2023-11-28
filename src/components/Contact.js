@@ -55,6 +55,11 @@ const Contact = ({ showContact, setShowContact }) => {
 								placeholder="Enter message"
 							/>
 						</div>
+						<div>
+							<button className="w-full md:w-1/4 dark:bg-wheat rounded p-3 dark:text-black font-bold bg-black text-white">
+								Send
+							</button>
+						</div>
 					</form>
 				</div>
 			</div>
