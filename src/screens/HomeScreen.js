@@ -63,15 +63,25 @@ const HomeScreen = (props) => {
               </div>
 
               <p className="flex justify-center gap-2 my-6">
-                <Link to="/">
+                <a href="#">
                   <FaXTwitter size={20} />
-                </Link>
-                <Link to="/">
+                </a>
+                <a
+                  href="http://www.linkedin.com/in/olalekan-adedeji-2053b4196"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="cursor-pointer"
+                >
                   <FaLinkedinIn size={20} />
-                </Link>
-                <Link to="/">
+                </a>
+                <a
+                  href="http://www.instagram.com/mista_lakes"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="cursor-pointer"
+                >
                   <FaInstagram size={20} />
-                </Link>
+                </a>
               </p>
             </p>
           </div>
@@ -79,7 +89,7 @@ const HomeScreen = (props) => {
 
         <div className="mt-16">
           <div className="text-center">
-            <h1 className="bg-gradient-to-r from-[#871701] via-[#b87c39] to-[#771300] inline-block text-transparent bg-clip-text text-center font-bold text-3xl">
+            <h1 className="bg-gradient-to-r from-[#020024] via-[#241401] to-[#4c0c00] inline-block text-transparent bg-clip-text dark:bg-gradient-to-r dark:from-[#871701] dark:via-[#b87c39] dark:to-[#771300] inline-block text-transparent bg-clip-text text-center font-bold text-3xl">
               Sample Work
             </h1>
 
@@ -117,22 +127,23 @@ const HomeScreen = (props) => {
               </div>
               <div className="container rounded">
                 <a
-                  href="https://thefittery.netlify.app/"
+                  href="https://app-dolla.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/the-fittery.png"
+                    src="/images/dolla-app.png"
                     className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
                   />
                 </a>
                 <div className="middle">
                   <div className="text py-4 px-3">
                     <p className="font-bold text-sm md:text-base">
-                      Ecommerce Website Landing Page
+                      Fintech Landing Page
                     </p>
                     <p className="text-sm md:text-base">
-                      Technologies: React, Tailwind CSS, ReduxToolKit
+                      Technologies: React, React Styled Components, React Smooth
+                      Scroll
                     </p>
                   </div>
                 </div>
