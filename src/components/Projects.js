@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Projects = ({ showProfile, setShowProfile }) => {
 	return (
@@ -37,6 +38,9 @@ const Projects = ({ showProfile, setShowProfile }) => {
 								commodo aliqua ipsum. Sit labore laboris sint aliqua cupidatat
 								cillum tempor proident commodo sunt exercitation exercitation.
 							</p>
+							<Link to="/">							<p className="font-bold">PowerAdmin</p>
+</Link>
+							<p>React, Tailwind CSS, Nodejs, MongoDB</p>
 						</div>
 
 						<div className="mx-3 p-3 dark:bg-[#999] bg-[#F2EFEF] rounded">

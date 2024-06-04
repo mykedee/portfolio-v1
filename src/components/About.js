@@ -9,7 +9,7 @@ const About = ({ showAbout, setShowAbout }) => {
 		<div className="my-16 py-24 relative ">
 			<div className=" dark:bg-[#3d3d3d] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
 				<div className="w-11/12 py-8 mx-auto">
-					<div className="flex items-center mb-10 p-2 ">
+					<div className="flex items-center mb-10">
 						<button
 							className="cursor-pointer"
 							onClick={() => setShowAbout(false)}
@@ -23,8 +23,13 @@ const About = ({ showAbout, setShowAbout }) => {
 							Back
 						</span>
 					</div>
-					<div className="p-2 font-heading text-center font-bold text-2xl md:text-4xl">
-						<h1>About Me</h1>
+					<div className="">
+						<h1 className='p-2 font-heading text-center font-bold text-2xl md:text-4xl'>About Me</h1>
+<p>Olalekan Micheal is a budding software engineer based in Nigeria. 
+Holds a masters degree in Information Science
+developer with 3 years experience converting still-life designs to interactive websites. 
+She is a problem solver, and a lover of graphical books, animated movies, 
+good music, and the japanese culture.</p>
 					</div>
 					{/* <div className="text-center test-sm md:text-base">
 						<h1 className="mb-5">Have a project to discuss? </h1>
@@ -44,21 +49,7 @@ const About = ({ showAbout, setShowAbout }) => {
 						<p>or</p>
 					</div> */}
 
-					<form>
-						<div className="mb-10">
-							<label className="block mb-2">Subject</label>
-							<input
-								className="w-full p-4 mb-3 rounded-lg"
-								placeholder="subject"
-							/>
-						</div>
-						<div>
-							<textarea
-								className="w-full h-[200px] p-4 mb-3 rounded-lg"
-								placeholder="Enter message"
-							/>
-						</div>
-					</form>
+
 				</div>
 			</div>
 		</div>

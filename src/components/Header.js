@@ -27,7 +27,7 @@ const Header = ({ setShowProfile, showProfile }) => {
 				<Projects setShowProfile={setShowProfile} showProfile={showProfile} />
 			)} */}
 			<header className="fixed top-0 w-full flex justify-between bg-black py-0 md:py-1">
-				<div className="flex justify-between w-5/6 mx-auto items-center">
+				<div className="flex justify-between w-11/12 mx-auto items-center">
 					<h6 className="text-white">
 						<Link to="/">
 							<img src="/images/ad8.png" alt="logo" />

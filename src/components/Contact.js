@@ -7,8 +7,8 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Contact = ({ showContact, setShowContact }) => {
 	return (
 		<div className="my-16 py-12 relative ">
-			<div className=" dark:bg-[#3d3d3d] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
-				<div className="w-11/12 py-8 mx-auto">
+			<div className=" dark:bg-[#111] bg-white w-[98%] md:w-[60%] mx-auto min-h-full absolute top-0 z-10 left-0 right-0 rounded-lg">
+				<div className="w-5/6 py-8 mx-auto">
 					<div className="flex items-center mb-10 p-2">
 						<button
 							className="cursor-pointer"
@@ -26,7 +26,7 @@ const Contact = ({ showContact, setShowContact }) => {
 					<div className="text-center test-sm md:text-base">
 						<h1 className="mb-5">Have a project to discuss? </h1>
 
-						<p>Shoot me a DM on socials</p>
+						<p>Shooooot me a DM on socials</p>
 						<p className="flex justify-center gap-2 my-6">
 							<Link to="/">
 								<FaXTwitter size={20} />
@@ -54,11 +54,6 @@ const Contact = ({ showContact, setShowContact }) => {
 								className="w-full h-[200px] p-4 mb-3 rounded-lg"
 								placeholder="Enter message"
 							/>
-						</div>
-						<div>
-							<button className="w-full md:w-1/4 dark:bg-wheat rounded p-3 dark:text-black font-bold bg-black text-white">
-								Send
-							</button>
 						</div>
 					</form>
 				</div>
