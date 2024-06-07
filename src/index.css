@@ -116,29 +116,15 @@ nav.open ul a:last-child {
 }
 
 .container {
-  position: relative;
-  width: 100%;
+  @apply relative w-full;
 }
 
 .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  transition: 0.5s ease;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  @apply opacity-100 block w-full transition duration-75 ease-in;
 }
 
 .middle {
-  transition: 0.5s ease;
-  opacity: 0;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: left;
-  width: 100%;
-  margin: 0;
+  @apply opacity-0 absolute left-1/2 transition duration-75 ease-in transform -translate-x-1/2 -translate-y-1/2 text-left w-full m-0;
 }
 
 .container:hover .image {
@@ -150,11 +136,5 @@ nav.open ul a:last-child {
 }
 
 .text {
-  background-color: #6c6c6c;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  @apply bg-[#6c6c6c] text-white text-base py-4 md:px-8 px-5 absolute bottom-0 w-full;
 }

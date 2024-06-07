@@ -89,9 +89,16 @@ const HomeScreen = (props) => {
 
         <div className="mt-16">
           <div className="text-center">
-            <h1 className="bg-gradient-to-r from-[#020024] via-[#241401] to-[#4c0c00] inline-block text-transparent bg-clip-text dark:bg-gradient-to-r dark:from-[#871701] dark:via-[#b87c39] dark:to-[#771300] inline-block text-transparent bg-clip-text text-center font-bold text-3xl">
-              Sample Work
+            <h1 className="bg-gradient-to-r from-[#020024] via-[#241401] to-[#4c0c00] inline-block text-transparent bg-clip-text dark:bg-gradient-to-r dark:from-[#871701] dark:via-[#b87c39] dark:to-[#771300]  text-center font-bold text-3xl">
+              Project Sample
             </h1>
+            <div className="w-11/12 mx-auto my-5  ">
+              <p className="text-sm">
+                I specialize in building accessible, highly responsive websites
+                using modern technologies and HTML Email Templates that are
+                responsive across all email clients.
+              </p>
+            </div>
 
             <div className="flex justify-center space-x-5 my-5">
               {/* <p>Websites</p>
@@ -99,7 +106,7 @@ const HomeScreen = (props) => {
             </div>
           </div>
 
-          <div className="w-11/12 mx-auto mt-8">
+          <div className="w-11/12 mx-auto mt-8 xl:w-9/12">
             <div className="grid grid-rows-1 lg:grid-cols-2 grid-cols-1 gap-16">
               <div className="container rounded">
                 <a
