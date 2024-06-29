@@ -92,7 +92,7 @@ const HomeScreen = (props) => {
             <h1 className="bg-gradient-to-r from-[#020024] via-[#241401] to-[#4c0c00] inline-block text-transparent bg-clip-text dark:bg-gradient-to-r dark:from-[#871701] dark:via-[#b87c39] dark:to-[#771300]  text-center font-bold text-3xl">
               Project Sample
             </h1>
-            <div className="w-11/12 mx-auto my-5  ">
+            <div className="w-11/12 lg:w-6/12 mx-auto my-5  ">
               <p className="text-sm">
                 I specialize in building accessible, highly responsive websites
                 using modern technologies and HTML Email Templates that are
