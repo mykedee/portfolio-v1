@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import Projects from "../components/Projects";
-import About from "../components/About";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
@@ -36,12 +31,12 @@ const HomeScreen = (props) => {
               Olalekan Adedeji
             </h1>
             <p className="font-body text-left w-full lg:w-3/5 mx-auto md:text-center text-base font-light my-2">
-              I am a Front-end Engineer skilled at creating visual pleasing,
-              high-performance and scalable web applications using mordern web
+              I am a Front-end Engineer skilled at creating visually pleasing,
+              high-performance, and scalable web applications using modern web
               technologies.
             </p>
             <p className="font-body block text-left text-base w-full lg:w-3/5 mx-auto md:text-center font-light my-2">
-              Tools and technologies I work with includes
+              Tools and technologies I work with include
               <span className="font-bold"> Javascript</span> |
               <span className="font-bold"> React</span> |
               <span className="font-bold"> Vue</span> |
@@ -90,19 +85,14 @@ const HomeScreen = (props) => {
         <div className="mt-16">
           <div className="text-center">
             <h1 className="bg-gradient-to-r from-[#020024] via-[#241401] to-[#4c0c00] inline-block text-transparent bg-clip-text dark:bg-gradient-to-r dark:from-[#871701] dark:via-[#b87c39] dark:to-[#771300]  text-center font-bold text-3xl">
-              Project Sample
+              Stuff I have built...
             </h1>
             <div className="w-11/12 lg:w-6/12 mx-auto my-5  ">
               <p className="text-sm">
                 I specialize in building accessible, highly responsive websites
-                using modern technologies and HTML Email Templates that are
+                using modern technologies and HTML email templates that are
                 responsive across all email clients.
               </p>
-            </div>
-
-            <div className="flex justify-center space-x-5 my-5">
-              {/* <p>Websites</p>
-              <p>HTML EMAIL Templates</p> */}
             </div>
           </div>
 
@@ -115,7 +105,7 @@ const HomeScreen = (props) => {
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/bsom-home.png"
+                    src="/images/bsom-home.png" alt="bsom"
                     alt="sample work image"
                     className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
                   />
@@ -139,7 +129,7 @@ const HomeScreen = (props) => {
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/dolla-app.png"
+                    src="/images/dolla-app.png" alt="fintect page"
                     className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
                   />
                 </a>
@@ -163,7 +153,7 @@ const HomeScreen = (props) => {
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/the-fittery.png"
+                    src="/images/the-fittery.png" alt="the-fittery"
                     className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
                   />
                 </a>
@@ -186,7 +176,7 @@ const HomeScreen = (props) => {
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/the-fittery.png"
+                    src="/images/the-fittery.png" alt="the-fittery"
                     className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
                   />
                 </a>

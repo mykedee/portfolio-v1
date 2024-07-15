@@ -7,7 +7,7 @@ import About from "./screens/About";
 import Footer from "./components/Footer";
 
 function App() {
-  const [showDarkMode, setShowDarkMode] = useState(true);
+  const [showDarkMode, setShowDarkMode] = useState(false);
 
   const handleMode = () => {
     if (!showDarkMode) {

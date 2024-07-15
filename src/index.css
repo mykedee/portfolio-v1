@@ -73,14 +73,6 @@ nav.open li:last-child {
   z-index: 2;
 }
 
-/* .linka a {
-	display: inline;
-	position: relative;
-	right: -50px;
-	top: -11px;
-	z-index: -1;
-} */
-
 nav.open ul a {
   padding: 20px 9.75%;
   /* padding: 20px 8.75%; */
@@ -129,6 +121,7 @@ nav.open ul a:last-child {
 
 .container:hover .image {
   opacity: 0.3;
+  background-color: red;
 }
 
 .container:hover .middle {
