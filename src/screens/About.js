@@ -1,25 +1,23 @@
 import React from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
 const About = () => {
 	return (
 <>
-			<Header />
-	<div className="dark:bg-[#3d3d3d] bg-white w-11/12 mx-auto min-h-full">
+	<div className="w-11/12 mx-auto min-h-full">
 			<p className="text-white mt-10">About Page</p>
-<div className="flex items-center mb-10 p-2">
-						<button
+			<div className="flex items-center mb-10 p-2">
+						<Link to="/"
 							className="cursor-pointer"
 						>
-							<AiOutlineCloseCircle size={25} />
-						</button>
-						<span
+							<AiOutlineCloseCircle className="inline" size={25} /><span 
 							className="mx-3 cursor-pointer "
 						>
 							Back
 						</span>
-					</div>
+						</Link>
+						
+			</div>
 			<div className="flex justify-center items-center">
 				<div className="flex-1">
 					<p>PowerAdmin Dashboard</p>

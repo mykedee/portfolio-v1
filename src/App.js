@@ -5,34 +5,31 @@ import Portfolio from "./screens/Portfolio";
 import Contact from "./screens/Contact";
 import About from "./screens/About";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   const [showDarkMode, setShowDarkMode] = useState(false);
 
   const handleMode = () => {
-    if (!showDarkMode) {
-      setShowDarkMode(true);
-    } else {
-      setShowDarkMode(false);
-    }
-  };
+      setShowDarkMode(!showDarkMode);
+  }
+  
   return (
-    <Router>
-      {/* <Header /> */}
+    <Router>        
+      <Header handleMode={handleMode} setShowDarkMode={setShowDarkMode} showDarkMode={showDarkMode} />
+
       <main
         className={`min-h-[100vh] h-auto  ${
           showDarkMode ? "dark" : "bg-dash-bg"
         } `}
       >
+      
         <Routes>
           <Route
             path="/"
             element={
-              <HomeScreen
-                handleMode={handleMode}
-                showDarkMode={showDarkMode}
-                setShowDarkMode={setShowDarkMode}
-              />
+              <HomeScreen/>
+                
             }
             exact
           />

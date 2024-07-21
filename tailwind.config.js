@@ -11,7 +11,8 @@ module.exports = {
         heading: ["Rubik Mono One", "monospace"],
       },
       colors: {
-        wheat: "#f5deb3",
+        "wheat": "#f5deb3",
+        "dash-bg":"#ffffff",
         "text-color": "#2d2d2d",
         "wheat-gradient": "rgb(2,0,36)",
         "primary-orange": "#fbc50b",

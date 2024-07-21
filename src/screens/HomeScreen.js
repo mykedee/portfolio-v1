@@ -1,29 +1,16 @@
 import React, { useState } from "react";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
-import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
+import SingleProject from "../components/Projects";
+import MainProject from "../components/Projects";
+import Projectsx from "../components/Projectsx";
 
 const HomeScreen = (props) => {
+
   return (
     <div
-      className={`sticky lg:overflow-x-hidden overflow-x-auto pt-[5%] pb-[1%] min-h-[100vh] ${
-        props.showDarkMode ? "dark" : "bg-dash-bg"
-      } `}
+      className="sticky lg:overflow-x-hidden overflow-x-auto pt-[5%] pb-[1%] min-h-[100vh]"
     >
-      <div className="flex">
-        <div className="absolute p-1 border rounded-full border-slate-800 dark:border-wheat  right-0 top-0 mx-5 md:mx-10 my-5">
-          <span
-            className="flex justify-center items-center  cursor-pointer"
-            onClick={props.handleMode}
-          >
-            {props.showDarkMode ? (
-              <MdOutlineDarkMode size={25} />
-            ) : (
-              <MdOutlineLightMode size={25} />
-            )}
-          </span>
-        </div>
-      </div>
       <div className="my-12 lg:my-auto w-full mx-auto">
         <div className="flex md:flex-row justify-center items-center flex-col">
           <div className="w-11/12 md:w-4/6 mx-auto my-1 ">
@@ -31,7 +18,7 @@ const HomeScreen = (props) => {
               Olalekan Adedeji
             </h1>
             <p className="font-body text-left w-full lg:w-3/5 mx-auto md:text-center text-base font-light my-2">
-              I am a Front-end Engineer skilled at creating visually pleasing,
+              I am a Full-Stack Developer skilled at creating visually pleasing,
               high-performance, and scalable web applications using modern web
               technologies.
             </p>
@@ -45,7 +32,7 @@ const HomeScreen = (props) => {
               <span className="font-bold"> NodeJS</span> |
               <span className="font-bold"> MongoDB</span> |
               <span className="font-bold"> SQL</span> |
-              <span className="font-bold"> GIT </span> |
+              <span className="font-bold"> Git </span> |
               <span className="font-bold"> Figma</span>
             </p>
 
@@ -58,7 +45,7 @@ const HomeScreen = (props) => {
               </div>
 
               <p className="flex justify-center gap-2 my-6">
-                <a href="#">
+                <a href="/">
                   <FaXTwitter size={20} />
                 </a>
                 <a
@@ -82,21 +69,19 @@ const HomeScreen = (props) => {
           </div>
         </div>
 
-        <div className="mt-16">
-          <div className="text-center">
-            <h1 className="bg-gradient-to-r from-[#020024] via-[#241401] to-[#4c0c00] inline-block text-transparent bg-clip-text dark:bg-gradient-to-r dark:from-[#871701] dark:via-[#b87c39] dark:to-[#771300]  text-center font-bold text-3xl">
-              Stuff I have built...
-            </h1>
-            <div className="w-11/12 lg:w-6/12 mx-auto my-5  ">
+        <div className="mt-16 w-11/12 lg:w-10/12 mx-auto text-center">
+          <h1 className=" bg-gradient-to-r from-[#020024] via-[#241401] to-[#4c0c00] inline-block text-transparent bg-clip-text dark:bg-gradient-to-r dark:from-[#871701] dark:via-[#b87c39] dark:to-[#771300]  text-center font-bold text-3xl">
+            Stuff I have built...
+          </h1>
+          {/* <div className="w-11/12 lg:w-6/12 mx-auto my-5  ">
               <p className="text-sm">
                 I specialize in building accessible, highly responsive websites
                 using modern technologies and HTML email templates that are
                 responsive across all email clients.
               </p>
-            </div>
-          </div>
+            </div> */}
 
-          <div className="w-11/12 mx-auto mt-8 xl:w-9/12">
+          {/* <div className="w-11/12 mx-auto mt-8 xl:w-9/12">
             <div className="grid grid-rows-1 lg:grid-cols-2 grid-cols-1 gap-16">
               <div className="container rounded">
                 <a
@@ -193,7 +178,9 @@ const HomeScreen = (props) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
+          <Projectsx/>
         </div>
       </div>
     </div>

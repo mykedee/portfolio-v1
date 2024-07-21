@@ -1,17 +1,14 @@
 import React from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Contact = () => {
 	return (
 		<>
-			<Header />
-			<div className="dark:bg-[#000000] bg-white w-11/12 mx-auto min-h-full">
-				<p className="text-white mt-10">Contact Page</p>
+			<div className="w-11/12 mx-auto min-h-full">
 
-				<div className="w-5/6 py-8 mx-auto">
+				<div className="w-3/6 py-8 mx-auto">
 					<div className="flex items-center mb-10 p-2">
 						<button
 							className="cursor-pointer"
@@ -21,13 +18,13 @@ const Contact = () => {
 						<Link to="/"
 							className="mx-3 cursor-pointer "
 						>
-							Back
+							Backs
 						</Link>
 					</div>
 					<div className="text-center test-sm md:text-base">
 						<h1 className="mb-5">Have a project to discuss? </h1>
 
-						<p>Shooooot me a DM on socials</p>
+						<p>Shot me a DM on socials</p>
 						<p className="flex justify-center gap-2 my-6">
 							<Link to="/">
 								<FaXTwitter size={20} />
