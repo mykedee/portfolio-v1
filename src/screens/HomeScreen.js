@@ -18,7 +18,7 @@ const HomeScreen = (props) => {
               Olalekan Adedeji
             </h1>
             <p className="font-body text-left w-full lg:w-3/5 mx-auto md:text-center text-base font-light my-2">
-              I am a Full-Stack Developer skilled at creating visually pleasing,
+              I am a Frontend Developer skilled at creating visually pleasing,
               high-performance, and scalable web applications using modern web
               technologies.
             </p>
@@ -73,113 +73,6 @@ const HomeScreen = (props) => {
           <h1 className=" bg-gradient-to-r from-[#020024] via-[#241401] to-[#4c0c00] inline-block text-transparent bg-clip-text dark:bg-gradient-to-r dark:from-[#871701] dark:via-[#b87c39] dark:to-[#771300]  text-center font-bold text-3xl">
             Stuff I have built...
           </h1>
-          {/* <div className="w-11/12 lg:w-6/12 mx-auto my-5  ">
-              <p className="text-sm">
-                I specialize in building accessible, highly responsive websites
-                using modern technologies and HTML email templates that are
-                responsive across all email clients.
-              </p>
-            </div> */}
-
-          {/* <div className="w-11/12 mx-auto mt-8 xl:w-9/12">
-            <div className="grid grid-rows-1 lg:grid-cols-2 grid-cols-1 gap-16">
-              <div className="container rounded">
-                <a
-                  href="https://bsomintegrated.com.ng/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/bsom-home.png" alt="bsom"
-                    alt="sample work image"
-                    className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
-                  />
-                </a>
-                <div className="middle">
-                  <div className="text py-4 px-3">
-                    <p className="font-bold text-sm md:text-base">
-                      Fullstack Ecommerce Website
-                    </p>
-                    <p className="text-sm md:text-base">
-                      Technologies: React, Tailwind CSS, ReduxToolKit, Express,
-                      NodeJS
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="container rounded">
-                <a
-                  href="https://app-dolla.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/dolla-app.png" alt="fintect page"
-                    className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
-                  />
-                </a>
-                <div className="middle">
-                  <div className="text py-4 px-3">
-                    <p className="font-bold text-sm md:text-base">
-                      Fintech Landing Page
-                    </p>
-                    <p className="text-sm md:text-base">
-                      Technologies: React, React Styled Components, React Smooth
-                      Scroll
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="container rounded">
-                <a
-                  href="https://thefittery.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/the-fittery.png" alt="the-fittery"
-                    className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
-                  />
-                </a>
-                <div className="middle">
-                  <div className="text py-4 px-3">
-                    <p className="font-bold text-sm md:text-base">
-                      Fullstack Ecommerce Website
-                    </p>
-                    <p className="text-sm md:text-base">
-                      Technologies: React, Tailwind CSS, ReduxToolKit, Express,
-                      NodeJS
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="container rounded">
-                <a
-                  href="https://thefittery.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/the-fittery.png" alt="the-fittery"
-                    className="image h-[350px] lg:h-[450px] w-full object-cover rounded"
-                  />
-                </a>
-                <div className="middle">
-                  <div className="text py-4 px-3">
-                    <p className="font-bold text-sm md:text-base">
-                      Fullstack Ecommerce Website
-                    </p>
-                    <p className="text-sm md:text-base">
-                      Technologies: React, Tailwind CSS, ReduxToolKit, Express,
-                      NodeJS
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           <Projectsx/>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import Projects from "./Projects";
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
@@ -27,6 +27,7 @@ const Header = (props) => {
             className="hidden md:gap-4 md:items-center z-50"
             onClick={() => setIsOpen(false)}
           >
+            <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
 
@@ -38,6 +39,9 @@ const Header = (props) => {
                 </span>
                 <span>
                   <FaLinkedinIn />
+                </span>
+                <span>
+                  <FaInstagram />
                 </span>
               </p>
             </li>

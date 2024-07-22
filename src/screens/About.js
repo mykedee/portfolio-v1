@@ -1,10 +1,11 @@
 import React from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import { FaSadCry } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const About = () => {
 	return (
 <>
-	<div className="w-11/12 mx-auto min-h-full">
+	<div className="w-11/12 mx-auto min-h-[100vh]">
 			<p className="text-white mt-10">About Page</p>
 			<div className="flex items-center mb-10 p-2">
 						<Link to="/"
@@ -18,16 +19,12 @@ const About = () => {
 						</Link>
 						
 			</div>
-			<div className="flex justify-center items-center">
-				<div className="flex-1">
-					<p>PowerAdmin Dashboard</p>
+			<div className="flex justify-center text-center items-center">
 					<p>
-						A fully responsive full stack admin/client dashboard built with
-						React, Tailwind CSS, Node, Express, Mongodb
+						<p>Nothing to see here at the moment.....please check back in few days</p>
+						<FaSadCry className="inline-block my-5 text-wheat" size={50}/>
 					</p>
-				</div>
-				<div className="flex-1">B</div>
-				<div className="flex-1">C</div>
+				
 			</div>
 		</div>
 </>
