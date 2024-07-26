@@ -13,9 +13,9 @@ const HomeScreen = () => {
               Olalekan Adedeji
             </h1>
             <p className="font-body text-left w-full lg:w-3/5 mx-auto md:text-center text-base font-light my-2">
-              I am a Frontend Developer skilled at creating visually pleasing,
-              robust, and efficient web applications optimized for scalability
-              and performance, utilizing advanced web technologies.
+            I am a Frontend Developer skilled at creating visually pleasing,
+              high-performance, and scalable web applications using modern web
+              technologies.
             </p>
             <p className="font-body block text-left text-base w-full lg:w-3/5 mx-auto md:text-center font-light my-2">
               Tools and technologies I work with include
