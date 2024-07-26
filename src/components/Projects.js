@@ -8,7 +8,7 @@ const Projectsx = () => {
       description1:
         "This is a full stack admin dashboard built with MERN stack technology. It can be used as a boilerplate for web applications that require a client and admin dashboard.",
       description2:
-        "The features included in this app are secure authentication and authorization system, admin and client CRUD functions, light and dark mode, pagination, industry-grade component splitting, and many more.",
+        "The features included in this app are secure authentication and authorization system, admin and client CRUD functions, light and dark mode, pagination and many more.",
       githubLink: "https://github.com/mykedee/power-admin",
       externalLink: "https://powerapp-ikut.onrender.com/",
     },
@@ -19,8 +19,8 @@ const Projectsx = () => {
         "This is a mini-ecommerce project that demonstrates my fluency in MERN stack technology and my competency in implementing payment integration (PayStack) and handling webhooks.",
       description2:
         " This app could be used as a boilerplate for a more complex ecommerce website as it includes features such as custom error handling, login, product search, error pages, cart, checkout, featured products, an admin dashboard, and admin product CRUD functionality",
-      githubLink: "",
-      externalLink: "",
+      githubLink: "https://github.com/mykedee/phoneky",
+      externalLink: "https://phoneky.onrender.com",
     },
     {
       id: 3,
@@ -28,20 +28,20 @@ const Projectsx = () => {
       description1:
         "This full-stack ecommerce application demonstrates my competency in building an advanced, industry-grade ecommerce web application using the MERN stack technology.",
       description2:
-        "The app includes all the essential functionalities expected of a production-ready ecommerce website, such as a secure authentication and authorization system, payment integration, custom error handling, client and admin dashboards with CRUD functions, pagination, search capabilities, and an email system.",
+        "The app includes essential functionalities expected of a production-ready ecommerce website, such as a secure authentication and authorization system, payment integration, custom error handling, client and admin dashboards with CRUD functions, pagination, search capabilities, and an email notification system.",
       githubLink: "",
       externalLink: "http://bsomintegrated.com.ng",
     },
-    {
-      id: 4,
-      title: "MoneyPal",
-      description1:
-        "This is a mini-fintech web application built around the PayStack API that demonstrates my fluency in MERN stack technology and my competency in implementing payment integration (PayStack) and handling webhooks.",
-      description2:
-        "This app allows users to check the details of a Nigerian bank account number, verify BVN details, and send me money.",
-      githubLink: "",
-      externalLink: "",
-    },
+    // {
+    //   id: 4,
+    //   title: "MoneyPal",
+    //   description1:
+    //     "This is a mini-fintech web application built around the PayStack API that demonstrates my fluency in MERN stack technology and my competency in implementing payment integration (PayStack) and handling webhooks.",
+    //   description2:
+    //     "This app allows users to check the details of a Nigerian bank account number, verify BVN details, and send me money.",
+    //   githubLink: "",
+    //   externalLink: "",
+    // },
   ];
 
 

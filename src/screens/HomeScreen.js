@@ -21,6 +21,7 @@ const HomeScreen = () => {
               Tools and technologies I work with include
               <span className="font-bold"> Javascript</span> |
               <span className="font-bold"> React</span> |
+              <span className="font-bold"> Next</span> |
               <span className="font-bold"> Vue</span> |
               <span className="font-bold"> Nuxt</span> |
               <span className="font-bold"> Express</span> |
