@@ -32,16 +32,16 @@ const Projectsx = () => {
       githubLink: "",
       externalLink: "http://bsomintegrated.com.ng",
     },
-    // {
-    //   id: 4,
-    //   title: "MoneyPal",
-    //   description1:
-    //     "This is a mini-fintech web application built around the PayStack API that demonstrates my fluency in MERN stack technology and my competency in implementing payment integration (PayStack) and handling webhooks.",
-    //   description2:
-    //     "This app allows users to check the details of a Nigerian bank account number, verify BVN details, and send me money.",
-    //   githubLink: "",
-    //   externalLink: "",
-    // },
+    {
+      id: 4,
+      title: "dollaBank",
+      description1:
+        "This is a simple fintech landing page website that demonstrates my fluency using react technology.",
+      description2:
+        "The site uses react-styled component for styling, and has smooth scroll implemented",
+      githubLink: "https://github.com/mykedee/dolla-bank",
+      externalLink: "https://app-dolla.netlify.app/",
+    },
   ];
 
 
