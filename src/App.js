@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import Portfolio from "./screens/Portfolio";
@@ -8,10 +8,17 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
-  const [showDarkMode, setShowDarkMode] = useState(false);
+  const [showDarkMode, setShowDarkMode] = useState(() => {
+    const savedMode = localStorage.getItem('dark');
+    return savedMode ? JSON.parse(savedMode) : false;
+  })
+
+    useEffect(() => {
+      localStorage.setItem("dark", JSON.stringify(showDarkMode));
+    }, [showDarkMode]);
 
   const handleMode = () => {
-      setShowDarkMode(!showDarkMode);
+      setShowDarkMode(prevMode => !prevMode);
   }
   
   return (
