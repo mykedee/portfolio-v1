@@ -12,12 +12,12 @@ const HomeScreen = () => {
             <h1 className="font-heading font-bold text-6xl md:text-6xl text-center lg:text-8xl my-4 lg:w-full">
               Olalekan Adedeji
             </h1>
-            <p className="font-body text-left w-full lg:w-3/5 mx-auto md:text-center text-base font-light my-2">
+            <p className="font-body w-full lg:w-3/5 mx-auto text-center text-base font-light my-2">
             I am a Frontend Developer skilled at creating visually pleasing,
               high-performance, and scalable web applications using modern web
               technologies.
             </p>
-            <p className="font-body block text-left text-base w-full lg:w-3/5 mx-auto md:text-center font-light my-2">
+            <p className="font-body block text-base w-full lg:w-3/5 mx-auto text-center font-light my-2">
               Tools and technologies I work with include
               <span className="font-bold"> Javascript</span> |
               <span className="font-bold"> React</span> |
