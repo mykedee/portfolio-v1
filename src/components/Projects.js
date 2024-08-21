@@ -10,7 +10,7 @@ const Projectsx = () => {
       description2:
         "The features included in this app are secure authentication and authorization system, admin and client CRUD functions, light and dark mode, pagination and many more.",
       githubLink: "https://github.com/mykedee/power-admin",
-      externalLink: "https://powerapp-ikut.onrender.com/",
+      externalLink: "https://power-admin.onrender.com",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ const Projectsx = () => {
       description2:
         " This app could be used as a boilerplate for a more complex ecommerce website as it includes features such as custom error handling, login, product search, error pages, cart, checkout, featured products, an admin dashboard, and admin product CRUD functionality",
       githubLink: "https://github.com/mykedee/phoneky",
-      externalLink: "https://phoneky.onrender.com",
+      externalLink: "https://phoneky-gync.onrender.com",
     },
     {
       id: 3,
